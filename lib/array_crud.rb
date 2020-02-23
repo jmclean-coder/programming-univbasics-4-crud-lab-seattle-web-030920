@@ -7,8 +7,9 @@ even_numbers = [2, 4, 6, 8,]
 end
 
 def add_element_to_end_of_array(array, element)
-odd_numbers = [1, 3, 5, 7]
-odd_numbers << 9
+array =[]
+element = "arrays!"
+array << element
 end
 
 def add_element_to_start_of_array(array, element)
