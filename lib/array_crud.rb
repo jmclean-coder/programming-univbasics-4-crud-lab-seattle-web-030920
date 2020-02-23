@@ -7,20 +7,15 @@ even_numbers = [2, 4, 6, 8,]
 end
 
 def add_element_to_end_of_array(array, element)
-array =[]
-element = "arrays!"
 array << element
 end
 
 def add_element_to_start_of_array(array, element)
-array =[]
-element = "wow"
 array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-array = ["I", "am", "really", "learning", "arrays!"]
-array.pop(0)
+array.pop
 end
 
 def remove_element_from_start_of_array(array)
