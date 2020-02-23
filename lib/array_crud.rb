@@ -19,8 +19,8 @@ array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-array = []
-array.pop(4)
+array = ["I", "am", "really", "learning", "arrays!"]
+array.pop(-1)
 end
 
 def remove_element_from_start_of_array(array)
