@@ -1,4 +1,3 @@
-odd_numbers = [1, 3, 5, 7]
 def create_an_empty_array
   []
 end
